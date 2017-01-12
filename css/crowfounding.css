@@ -1,0 +1,133 @@
+body{
+	color: white;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.inner-addon{
+	float: right;
+	position: relative;
+	width: 80% !important;
+}
+
+.form-group{
+	width: 100% !important;	
+}
+
+.container .fa-bars{
+	margin-top: 5px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; width: 100%;}
+
+.fa-bars:before{
+	position: fixed;
+	left: 15 !important;
+	top: 10px;
+	color: white;
+}
+
+input[type="text"]:focus{
+	border-color: #00a9d4 !important;
+	color: #00a9d4 !important;
+
+}
+
+#Search{
+	border-radius: 0px;
+    height: 53px;
+    border: 0px;
+    background-color: #002561;
+    border-bottom: 3px solid #002561;
+    color: white;
+    font-size: 32px;
+}
+
+.navbar{
+	font-size: 32px !important;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#divSearch i{
+	position: fixed;
+	right: 15px !important;
+	top: 10px;
+	color: white;
+}
+
+.navbar-default{
+	background-color: #002561;
+}
+
+.content{
+	margin-top: 52px;
+	color: black;
+}
+
+.card{
+	height: 280px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.card #cardTitle{
+	color: white;
+	font-size: 24px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+	margin-top: 195px;
+}
+
+#card1{
+	background-image: url("http://italiacamp.com/wp-content/iper-uploads/public/page/201607_104/crowdfunding.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 650px;
+	text-align: center;
+	padding-top: 2%;
+}
+
+#card1 p{
+	color: white;
+	font-size: 38px;
+}
+
+#card2{
+	background-repeat: no-repeat;
+	background-color: #002561;
+	background-position: center;
+	background-size: 490px;
+}
+
+#card3{
+	background-repeat: no-repeat;
+	background-color: #89bb40;
+	background-position: center;
+	background-size: 470px;
+}
